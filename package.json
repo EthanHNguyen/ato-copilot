@@ -1,0 +1,30 @@
+{
+  "name": "ato-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "api": "uvicorn api.main:app --reload --port 8000",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest",
+    "fastapi": "latest",
+    "uvicorn": "latest",
+    "pydantic": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
