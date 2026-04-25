@@ -1,0 +1,4 @@
+control,artifact,evidence,reviewer,status
+AC-2,Q1 access review,Quarterly access review completed on 2026-03-15. Inactive accounts are disabled after 30 days by IAM policy.,IAM team,partial
+AU-6,SIEM audit report,Weekly audit log review performed by designated SOC analyst. Monthly summary signed by SOC lead.,SOC analyst,complete
+CM-6,SCAP scan,SCAP STIG baseline scan shows 98 percent compliance. Configuration drift monitoring is active and deviations are approved through change tickets.,Configuration manager,complete

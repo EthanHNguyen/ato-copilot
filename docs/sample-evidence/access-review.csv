@@ -1,0 +1,3 @@
+control,artifact,evidence,reviewer,status
+AC-2,Q1 access review,Quarterly access review completed on 2026-03-15. Inactive accounts are disabled after 30 days by IAM policy.,IAM team,partial
+AC-2,Temporary account register,Temporary account records include owner expiration date approval and deactivation evidence.,IAM team,complete

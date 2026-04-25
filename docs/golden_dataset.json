@@ -1,0 +1,47 @@
+[
+  {
+    "id": "AC-2",
+    "name": "Account Management",
+    "status": "Needs Prep Review",
+    "confidence": 0.94,
+    "artifact": "Q1-2026-Access-Review.csv",
+    "reasoning": [
+      "Evidence found for periodic review (2026-03-15).",
+      "Missing evidence for automated account disabling (AC-2(3)).",
+      "Gap in evidence for temporary account management."
+    ],
+    "reviewer_question": "Does the system automatically disable inactive accounts after 30 days of inactivity?",
+    "suggestion": "Include system-generated logs showing automatic account disabling or a screenshot of the configuration policy.",
+    "provenance": "Artifact: Q1-2026-Access-Review.csv (Row 4-12)"
+  },
+  {
+    "id": "AU-6",
+    "name": "Audit Review, Analysis, and Reporting",
+    "status": "Evidence Found",
+    "confidence": 0.88,
+    "artifact": "SIEM-Log-Audit-Report.pdf",
+    "reasoning": [
+      "SIEM report confirms weekly log review and analysis.",
+      "Reviewer signatures present on monthly summary reports.",
+      "Evidence of centralized audit trail management found."
+    ],
+    "reviewer_question": "Are audit logs reviewed at least weekly by a designated individual?",
+    "suggestion": "No further action needed for prep. Keep current weekly audit logs organized.",
+    "provenance": "Artifact: SIEM-Log-Audit-Report.pdf (Page 3)"
+  },
+  {
+    "id": "CM-6",
+    "name": "Configuration Settings",
+    "status": "Evidence Found",
+    "confidence": 0.91,
+    "artifact": "SCAP-Compliance-Scan.xml",
+    "reasoning": [
+      "SCAP scan results show 98% compliance with STIG benchmarks.",
+      "Configuration drift monitoring active for production clusters.",
+      "Documented deviations for mission-essential bypasses found."
+    ],
+    "reviewer_question": "How are deviations from baseline configuration settings documented and approved?",
+    "suggestion": "Maintain the current configuration drift reports and justification documents.",
+    "provenance": "Artifact: SCAP-Compliance-Scan.xml (Summary Section)"
+  }
+]
