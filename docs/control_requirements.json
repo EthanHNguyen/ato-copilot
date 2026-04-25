@@ -1,0 +1,98 @@
+[
+  {
+    "id": "AC-2",
+    "name": "Account Management",
+    "mission": "Determine whether account lifecycle evidence is ready for an ATO reviewer.",
+    "required_evidence_elements": [
+      {
+        "id": "periodic_review",
+        "label": "Periodic access review",
+        "description": "Evidence shows accounts are periodically reviewed by an accountable team or owner.",
+        "search_terms": ["access review", "quarterly", "review completed", "user access", "account review"],
+        "reviewer_gap": "No cited evidence proves a periodic account or user access review."
+      },
+      {
+        "id": "inactive_disablement",
+        "label": "Inactive account disablement",
+        "description": "Evidence shows inactive accounts are disabled or deactivated after a defined threshold.",
+        "search_terms": ["inactive", "disable", "disabled", "deactivate", "deactivated", "30 days"],
+        "reviewer_gap": "No cited evidence proves inactive account disablement or deactivation."
+      },
+      {
+        "id": "temporary_lifecycle",
+        "label": "Temporary account lifecycle",
+        "description": "Evidence shows temporary accounts have ownership, expiration, approval, and removal or disablement.",
+        "search_terms": ["temporary account", "temporary user", "temp account", "expiration", "temporary", "deactivation"],
+        "reviewer_gap": "No cited evidence proves temporary account lifecycle management."
+      }
+    ],
+    "common_reviewer_questions": [
+      "Does the system automatically disable inactive accounts after the required inactivity threshold?",
+      "Where is temporary account expiration and disablement evidenced?"
+    ]
+  },
+  {
+    "id": "AU-6",
+    "name": "Audit Review, Analysis, and Reporting",
+    "mission": "Determine whether audit-review evidence proves logs are reviewed by accountable personnel on a defined cadence.",
+    "required_evidence_elements": [
+      {
+        "id": "review_cadence",
+        "label": "Review cadence",
+        "description": "Evidence shows audit logs are reviewed on a defined daily, weekly, monthly, or recurring cadence.",
+        "search_terms": ["weekly", "daily", "monthly", "cadence", "review completed", "reviewed"],
+        "reviewer_gap": "No cited evidence shows the audit review cadence."
+      },
+      {
+        "id": "reviewer_identity",
+        "label": "Reviewer identity or role",
+        "description": "Evidence identifies the person, team, role, or approver responsible for audit review.",
+        "search_terms": ["reviewer", "analyst", "designated", "soc", "signed", "approved", "lead"],
+        "reviewer_gap": "No cited evidence identifies who performs or approves audit review."
+      },
+      {
+        "id": "audit_source",
+        "label": "Audit/log source",
+        "description": "Evidence ties the review to SIEM, logs, events, reports, or audit trail sources.",
+        "search_terms": ["audit", "log", "siem", "event", "security log", "report"],
+        "reviewer_gap": "No cited evidence ties the review to an audit log, SIEM, event, or report source."
+      }
+    ],
+    "common_reviewer_questions": [
+      "Are audit logs reviewed on a defined cadence by an accountable reviewer?",
+      "What source system or SIEM report proves the audit review occurred?"
+    ]
+  },
+  {
+    "id": "CM-6",
+    "name": "Configuration Settings",
+    "mission": "Determine whether configuration evidence proves baseline settings and approved deviations are managed.",
+    "required_evidence_elements": [
+      {
+        "id": "baseline_source",
+        "label": "Baseline or benchmark source",
+        "description": "Evidence ties configuration settings to a baseline, STIG, SCAP scan, benchmark, or hardening source.",
+        "search_terms": ["baseline", "stig", "scap", "benchmark", "hardening", "configuration"],
+        "reviewer_gap": "No cited evidence ties configuration settings to a baseline or benchmark."
+      },
+      {
+        "id": "drift_monitoring",
+        "label": "Configuration drift monitoring",
+        "description": "Evidence shows configuration drift or compliance posture is monitored.",
+        "search_terms": ["drift", "monitoring", "scan", "compliance", "configuration"],
+        "reviewer_gap": "No cited evidence shows configuration drift or compliance monitoring."
+      },
+      {
+        "id": "deviation_approval",
+        "label": "Deviation approval",
+        "description": "Evidence shows deviations, exceptions, or bypasses are documented and approved.",
+        "search_terms": ["deviation", "deviations", "exception", "exceptions", "approved", "approval", "change tickets"],
+        "reviewer_gap": "No cited evidence shows approval of configuration deviations or exceptions."
+      }
+    ],
+    "common_reviewer_questions": [
+      "How are deviations from baseline configuration settings documented and approved?",
+      "What scan or drift-monitoring evidence proves the baseline is maintained?"
+    ]
+  }
+]
