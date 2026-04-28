@@ -5,7 +5,7 @@ const path = require('path');
 const docsDir = path.resolve(__dirname, '../docs');
 const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
 const evidencePayload = {
-  name: 'real-evidence-package.csv',
+  name: 'demo-evidence-package.csv',
   mimeType: 'text/csv',
   buffer: Buffer.from([
     'control,artifact,evidence,reviewer,status',

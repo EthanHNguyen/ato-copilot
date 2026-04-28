@@ -106,7 +106,7 @@ export default function ATOCopilot() {
         <header className="flex items-center justify-between mb-8 border border-slate-800 p-2 rounded-sm bg-[#161B22]">
           <div className="flex items-center gap-3 px-2">
             <Shield className="text-blue-500 w-5 h-5" />
-            <h1 className="text-sm font-bold tracking-widest text-white uppercase">ATO.COPILOT<span className="text-slate-500 font-normal ml-2">v2.4.0</span></h1>
+            <h1 className="text-sm font-bold tracking-widest text-white uppercase">ATO.COPILOT<span className="text-slate-500 font-normal ml-2">demo</span></h1>
           </div>
 
           <div className="flex-1 max-w-md mx-4">
@@ -130,12 +130,12 @@ export default function ATOCopilot() {
             <div className="flex items-center gap-2">
               <span className="text-[10px] text-green-500 flex items-center gap-1.5 font-bold">
                 <span className="w-1 h-1 rounded-full bg-green-500" />
-                SEC_CONNECTED
+                DEMO_CONNECTED
               </span>
             </div>
             <div className="h-4 w-px bg-slate-800" />
             <div className="text-[10px] text-slate-500 font-bold">
-              AUTH: <span className="text-blue-500">G_ADMIN</span>
+              AUTH: <span className="text-blue-500">DEMO_USER</span>
             </div>
           </div>
         </header>
@@ -458,7 +458,7 @@ export default function ATOCopilot() {
 
         <footer className="mt-12 text-center pb-8 border-t border-slate-900 pt-8">
           <p className="text-slate-700 text-[10px] font-bold uppercase tracking-[0.4em]">
-            v2.4.0-STABLE
+            demo-build
           </p>
         </footer>
       </div>
