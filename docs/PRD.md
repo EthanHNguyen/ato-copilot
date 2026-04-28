@@ -1,5 +1,5 @@
 # PRD: ATO-Copilot (Mission Terminal)
-**Tagline:** High-density security evidence intelligence for IL6 and FedRAMP workloads.
+**Tagline:** High-density security evidence intelligence for FedRAMP and high-assurance workloads.
 **Product Metaphor:** Palantir for Compliance.
 **Design Ethos:** Data-dense, keyboard-centric, institutional authority.
 

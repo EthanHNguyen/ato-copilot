@@ -1,6 +1,6 @@
 # ATO-Copilot
 
-High-density security evidence intelligence for IL6 and FedRAMP workloads.
+High-density security evidence intelligence for FedRAMP and high-assurance workloads.
 
 ![ATO-Copilot Mission Terminal](docs/demo-screenshot.png)
 
@@ -32,16 +32,36 @@ Compliance packages fail slowly because evidence is scattered and reviewers ask 
 
 The terminal can enrich deterministic mappings with live AI-generated reviewer guidance. It uses the golden dataset as the source of truth, then asks a model to generate the "Interrogatory Phase" questions.
 
-1. **Setup Environment:**
+> Demo note: all included evidence artifacts are synthetic examples. This repository contains no CUI, customer data, or official assessment output.
+
+1. **Install frontend dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Install backend dependencies:**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+3. **Setup environment:**
    ```bash
    cp .env.example .env.local
    ```
 
-2. **Configure `.env.local`:**
+4. **Configure `.env.local` if model insights are enabled:**
    ```bash
    USE_MODEL_INSIGHTS=true
-   OPENROUTER_API_KEY=your-key-here
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
    OPENROUTER_MODEL=openai/gpt-5.2
+   ```
+
+5. **Run the app:**
+   ```bash
+   npm run api
+   npm run dev
    ```
 
 ## 📁 Repository Structure

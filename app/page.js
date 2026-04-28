@@ -98,7 +98,7 @@ export default function ATOCopilot() {
   return (
     <div className="min-h-screen bg-[#0B0E14] text-slate-300 font-mono selection:bg-blue-500/30 overflow-x-hidden">
       <div className="bg-green-600 text-black text-center text-[11px] font-bold tracking-[0.25em] py-1 uppercase">
-        UNCLASSIFIED -- NO CUI
+        DEMO DATA -- NO CUI
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 py-4">
@@ -464,7 +464,7 @@ export default function ATOCopilot() {
       </div>
 
       <div className="bg-green-600 text-black text-center text-[11px] font-bold tracking-[0.25em] py-1 uppercase">
-        UNCLASSIFIED -- NO CUI
+        DEMO DATA -- NO CUI
       </div>
 
       <style jsx global>{`

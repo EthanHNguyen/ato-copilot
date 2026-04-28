@@ -25,7 +25,7 @@ test('initiate package scan completes without crashing', async ({ page }) => {
 
   await page.goto(baseUrl);
   await expect(page.getByText('INITIATE PACKAGE SCAN')).toBeVisible();
-  await expect(page.getByText('UNCLASSIFIED -- NO CUI')).toHaveCount(2);
+  await expect(page.getByText('DEMO DATA -- NO CUI')).toHaveCount(2);
   await page.screenshot({
     path: path.join(docsDir, 'package-scan-before.png'),
     fullPage: true,

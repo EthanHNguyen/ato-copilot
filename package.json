@@ -15,10 +15,7 @@
     "react-dom": "latest",
     "lucide-react": "latest",
     "clsx": "latest",
-    "tailwind-merge": "latest",
-    "fastapi": "latest",
-    "uvicorn": "latest",
-    "pydantic": "latest"
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
     "@playwright/test": "latest",
